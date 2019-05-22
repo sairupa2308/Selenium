@@ -1,0 +1,36 @@
+package JavaBasics;
+
+public class FunctionsinJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	}
+		    public void sr() {
+		    	System.out.println("sr method");
+		    }
+		    
+		    public int pqr() {
+		    	System.out.println("pqr method ");
+		     int a =10;
+		     int b = 20;
+		     int c = a-b;
+		      return c;
+		    }
+		    
+		    public String qa() {
+		    	System.out.println("qa method");
+			
+		    	String s = "Selenium";
+		    	
+		    	return s;	
+		    }
+		    
+		    public int adding(int x , int y) {
+		    	System.out.println("adding");
+		    	 int a = x+y;
+		    	  return a;
+		    }
+	
+	}
+
+

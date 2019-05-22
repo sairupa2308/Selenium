@@ -1,0 +1,48 @@
+package JavaBasics;
+
+public class FinallyConcept {
+
+	public static void main(String args[]) {
+			test();
+		
+		}
+	
+	public static void test() {
+		try {
+			System.out.println("test inside method");
+			throw new RuntimeException("test");
+		}catch(Exception e) {
+		System.out.println("inside block");
+	}
+         finally
+         {
+        	 System.out.println("hduyfdurgry");
+         }
+}
+
+   //finally method must n should use try catch method
+
+
+  public static void test2() {
+	  try {
+		  System.out.println("jfyksdgydc");
+	  }
+	  finally
+	  {
+		  System.out.println("jhgvuyfuvdkry");
+		  
+	  }
+  }
+  }
+
+
+
+
+
+
+
+
+
+
+
+

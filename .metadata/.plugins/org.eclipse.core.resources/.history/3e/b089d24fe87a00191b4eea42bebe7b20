@@ -1,0 +1,17 @@
+package JavaBasics;
+
+public class ConstructorwithThisKeyword {
+  String name;
+  int age;
+  
+	
+	public	ConstructorwithThisKeyword(String name , int age) {
+		
+	}
+	
+	public static void main(String[] args) {
+	
+		ConstructorwithThisKeyword obj = new ConstructorwithThisKeyword("tom", 10); 
+	}
+
+}

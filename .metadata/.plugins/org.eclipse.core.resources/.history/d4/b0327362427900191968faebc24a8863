@@ -1,0 +1,26 @@
+package JavaBasics;
+
+public class WrapperClass {
+    String name = "tom";//global variable non static global variables
+      static int  age = 200;
+      
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+          rupa();
+        
+          WrapperClass.rupa();
+          
+          WrapperClass obj = new WrapperClass();
+          System.out.println(obj.name);
+          obj.mail();
+         System.out.println(obj.age);      
+          
+	}
+  public void mail() {
+	  System.out.println("mail method");
+  }
+  
+  public static void rupa() {
+	  System.out.println("rupa method");
+  }
+}

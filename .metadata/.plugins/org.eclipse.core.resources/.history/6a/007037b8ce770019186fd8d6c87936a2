@@ -1,0 +1,12 @@
+package JavaBasics;
+
+public class DataTypesInJava {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+            double d = 100;
+            double d2 = 12;
+            System.out.println(d1);
+	}
+
+}

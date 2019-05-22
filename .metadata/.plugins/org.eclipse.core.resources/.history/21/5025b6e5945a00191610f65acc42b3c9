@@ -1,0 +1,37 @@
+package OOPConcepts;
+
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+		
+		MethodOverloading obj = new MethodOverloading();
+		   
+		obj.sum(20, 15, 20);
+		obj.sum(10);
+		obj.sum(45);
+		obj.sum(10, 50);
+		
+			
+		
+	}
+
+	public static void sum(int x,int y,int z) {
+		System.out.println("sum of method");
+		System.out.println(x+y+z);
+	}
+	
+	public static void sum(int i) {
+		System.out.println("sum of methods--2 param");
+		System.out.println(i);
+	}
+	
+	public static void sum(double d) {
+		System.out.println("sum of methods--2 param");
+		System.out.println(d);
+	}
+	 
+	public static void sum(int k,int l) {
+		System.out.println("sum of methods ");
+		System.out.println(k+l);
+	}
+}

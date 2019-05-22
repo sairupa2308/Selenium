@@ -1,0 +1,39 @@
+package OOPConcepts;
+
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+		
+		MethodOverloading obj = new MethodOverloading();
+		   
+		obj.sum(20, 15, 20);
+		obj.sum(10);
+		obj.sum(45);
+		obj.sum(10, 50);
+		obj.sum('c');
+	}
+
+	public static void sum(int x,int y,int z) {
+		System.out.println("sum  method -- 3 input param");
+		System.out.println(x+y+z);
+	}
+	//method overloading : same method name with different arguments or input parameters with in class with diff datatypes
+	public static void sum(int i) {
+		System.out.println("sum  methods--1 input param");
+		System.out.println(i);
+	}
+	
+	public static void sum(double d) {
+		System.out.println("sum methods");
+		System.out.println(d);
+	}
+	 
+	public static void sum(int k,int l) {
+		System.out.println("sum  methods--2 input param");
+		System.out.println(k+l);
+	}
+	public static void sum(char c) {
+		System.out.println("hai");
+		System.out.println(c);
+	}
+}

@@ -1,0 +1,21 @@
+package JavaBasics;
+
+public class ConstructorConcept {
+	
+	public ConstructorConcept() {
+		System.out.println("constructor method");
+	}
+	
+	
+	
+	
+	
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

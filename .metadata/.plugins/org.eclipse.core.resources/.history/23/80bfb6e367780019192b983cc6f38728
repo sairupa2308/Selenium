@@ -1,0 +1,22 @@
+package JavaBasics;
+
+public class ObjectinJava {
+	 int bottle;
+	   int cap;//global variables
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+  
+		   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+	}
+
+}

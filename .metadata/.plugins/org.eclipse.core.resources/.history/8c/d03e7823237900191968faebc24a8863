@@ -1,0 +1,19 @@
+package JavaBasics;
+
+public class StaticandNonStatic {
+          String name = "tom";
+           static int age = 25;
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		StaticandNonStatic.sum();
+		
+	}
+
+	public static void sum() {
+		System.out.println("sum method");
+	}
+	
+	public void sendmail() {
+		System.out.println("sendmail method");
+	}
+}

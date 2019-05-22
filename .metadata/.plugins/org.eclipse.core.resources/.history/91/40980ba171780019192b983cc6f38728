@@ -1,0 +1,20 @@
+package JavaBasics;
+
+public class GlobalvsLocal {
+	
+	String name = "rupa";//global variable -- inside class methods
+	int age = 25;
+	
+
+	public static void main(String[] args) {
+		
+		int i =10;
+		System.out.println(i);
+		  
+		System.out.println(name);
+		
+		
+
+	}
+
+}

@@ -1,0 +1,22 @@
+package JavaBasics;
+
+public class FinallyConcept {
+
+	public static void main(String args[]) {
+			
+		
+		}
+	
+	public static void test() {
+		try {
+			System.out.println("test inside method");
+			throw new RuntimeException("test");
+		}catch(Exception e) {
+		System.out.println("inside block");
+	}
+         finally
+         {
+        	 System.out.println("hduyfdurgry");
+         }
+}
+}

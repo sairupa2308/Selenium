@@ -1,0 +1,30 @@
+package OOPConcepts;
+
+public class Car {
+	
+	//class var
+     
+	int model;
+	int wheel;
+	
+	
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Car a = new Car();
+		Car b=new Car();
+	
+		a.model=2015;
+		a.wheel=4;
+		
+		b.model=2014;
+		b.wheel=6;
+		
+		System.out.println(a.model);
+		System.out.println(a.wheel);
+		 System.out.println(b.model);
+		 System.out.println(b.wheel);
+	}
+
+}
